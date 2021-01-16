@@ -1,0 +1,106 @@
+.ligth{
+	text-decoration: none;
+	color: black;
+}
+
+.teste2{
+	position: relative;
+	background-image:url('../Imagens/fundositeempresa.png');
+	width: 100%;
+	height: 60%;
+	background-repeat: no-repeat;
+}
+
+img{
+	border-style: none;
+	border-color: black;
+}
+
+body{
+	background-color: black;
+}
+
+a{
+	text-decoration: none;
+	font-size: 23px;
+	font-family: Times new Roman;
+	transition: 0.5s;
+	color: white !important;
+}
+a:hover{
+	font-size: 29px;
+	color: red !important;
+}
+
+.empresa{
+	position: absolute;
+	background-color: transparent;
+	border-style: solid;
+	margin-top: 2.5%;
+	left: 2.5% ;
+	border-left-color: white;
+	border-top-color: transparent;
+	border-bottom-color: transparent;
+	border-right-color: transparent;
+}
+
+.teax{
+	position: absolute;
+	top: 40%;
+	width: 85%;
+	color: white;
+	left: 10%;
+	background-color: transparent;
+	text-align: justify;
+
+}
+
+.proto{
+	position: absolute;
+	height: 170px;
+	width: 170px;  
+	left: 7%;
+	border-color: transparent;
+	background-color: black;
+}
+
+.integrantes{
+	position: relative;
+	border-radius: 100%;
+	height: 130px;
+	width: 130px;  
+	left: 18%;
+	border-color: transparent;
+	background-color: black;
+ 	-webkit-transform: rotate(90deg);
+ 	-ms-transform: rotate(90deg);
+ 	transform: rotate(90deg);
+}
+.integrantes1{
+	position: relative;
+	border-radius: 100%;
+	height: 130px;
+	width: 130px;  
+	left: 18%;
+	border-color: transparent;
+	background-color: black;
+}
+
+.fundo{
+	background-color: black;
+	color: white;
+	border-color: white;
+	transition: 1.8s;
+	height: 320px;
+}
+div.fundo:hover { 
+ 	background-color: red;
+}
+
+.cent{
+	text-align:center;
+}
+
+.tmC{
+	height: 140px;
+}

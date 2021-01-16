@@ -1,0 +1,83 @@
+.ligth{
+	text-decoration: none;
+	color: black;
+}
+
+body{
+	background-color: black;
+}
+
+a{
+	text-decoration: none;
+	font-size: 23px;
+	font-family: Times new Roman;
+	transition: 0.5s;
+	color: white !important;
+}
+a:hover{
+	font-size: 29px;
+	color: red !important;
+}
+
+.contato{
+	position: absolute;
+	background-color: transparent;
+	border-style: solid;
+	margin-top: 2.5%;
+	left: 2.5% ;
+	border-left-color: white;
+	border-top-color: transparent;
+	border-bottom-color: transparent;
+	border-right-color: transparent;
+}
+
+.formulario{
+	position: absolute;
+	width: 350px;
+	height: 350px;
+	left: 16.5%;
+	color: black;
+	background-color: white;
+	margin-top: 13%;
+	border-radius: 10px;
+}
+
+p.inps{
+	position: relative; 
+	left: 8%;
+}
+input.inps{
+	position: absolute; 
+	margin-top: -10%; 
+	left: 24%; 
+	width: 245px;
+}
+textarea.inps{
+	position: absolute; 
+	margin-top: -20%; 
+	left:9%;
+	width: 300px;
+}
+
+.btn{
+	position: absolute;
+	left: 40%;
+}
+
+.copi{
+    width: 1.3% ;
+    height: 1.3%;
+    right: 25%;
+}
+
+.bg-branco{
+	position: absolute;
+	background-color: white;
+	bottom: 0%;
+}
+
+.copi1{
+    margin-top:1%;
+    text-align: left;
+	color: black !important;
+}

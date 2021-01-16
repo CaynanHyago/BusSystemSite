@@ -1,0 +1,62 @@
+.ligth{
+	text-decoration: none;
+	color: black;
+}
+
+.objetivos1{
+	position: relative;
+	background-image:url('../Imagens/FundoSite2.jpg');
+	width: 1360px;
+	height: 618px;
+	background-repeat: no-repeat;
+}
+
+body{
+	background-color: black;
+}
+
+a{
+	text-decoration: none;
+	font-size: 23px;
+	font-family: Times new Roman;
+	transition: 0.5s;
+	color: white !important;
+}
+a:hover{
+	font-size: 29px;
+	color: red !important;
+}
+
+.objetivos{
+	position: absolute;
+	background-color: transparent;
+	border-style: solid;
+	margin-top: 2.5%;
+	left: 2.5% ;
+	border-left-color: white;
+	border-top-color: transparent;
+	border-bottom-color: transparent;
+	border-right-color: transparent;
+}
+
+.fundo{
+	min-width: 18.5rem;
+	max-width: 19rem;
+	background-color: black;
+	color: white;
+	border-color: white;
+	transition: 1.8s;
+}
+
+div.fundo:hover { 
+ 	background-color: red;
+}
+.cent{
+	text-align: center;
+}
+.just{
+	text-align: justify !important;
+}
+#Objetivos{
+	color: white;
+}

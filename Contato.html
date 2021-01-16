@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/contato.css">
+		<title>Contato</title>
+		<link rel="shortcut icon" href="imagens/LOGO1.ico" type="image/x-icon">
+		<link rel="icon" href="Imagens/LOGO1.ico" type="image/x-icon">
+	</head>
+	
+	<body style="overflow: hidden;">
+		<div class="contato">
+			<nav>
+				<ul class="nav flex-column">
+					<div class="jumbotron-fluid principal">
+					  <li class="nav-item">
+					    <a class="nav-link ligth" href="Index.html">Inicio <span class="sr-only">(Página atual)</span></a>
+					  </li>
+					  <li class="nav-item">
+					   <a class="nav-link ligth" href="Empresa.html">Empresa</a>
+					  </li>
+					  <li class="nav-item">
+					    <a class="nav-link ligth" href="Objetivos.html">Objetivos</a>
+					  </li>
+					  <li class="nav-item">
+					    <a class="nav-link ligth" href="Contato.html">Contato</a>
+					  </li>
+				 	</div>
+				</ul>
+			</nav>
+		</div>
+		<p style="position: absolute; color: white; left: 25%; top: 10%; font-size: 55px; font-family: impact;"> Entre em contato conosco: </p>
+		<div class="formulario">
+			<form action="Contato.php" method="post"><br>
+				<p class="inps">Nome:</p> <input type=text name=nome  placeholder="Nome" required id=nome class="inps"><br>
+				<p class="inps">Email:</p> <input type=email required name=email  placeholder="email@exemplo.com" id=email class="inps"><br>
+				<p class="inps">Mensagem:</p><br><br><br><textarea name=mensagem  placeholder="Deixe Aqui sua mensagem" required cols=8 rows=3 class="inps"></textarea><br>
+				<input type=submit name="enviar" class="btn">
+			</form>
+		</div>
+
+		<div class="">
+			<!--<iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d3658.526904291576!2d-46.34590178487227!3d-23.51354406571361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x94ce7b3d56997a17%3A0x54f4214e9220a7f2!2sEscola+T%C3%A9cnica+Estadual+-+ETEC+Po%C3%A1+-+Av.+Vital+Brasil%2C+827+-+Vl.+Acoreana%2C+Po%C3%A1+-+SP%2C+08557-000!3m2!1d-23.513548999999998!2d-46.343713099999995!5e0!3m2!1spt-BR!2sbr!4v1553217494671" class="" width="70%" height="60%" frameborder="0" style="border:0; position: absolute; margin-top: 45%; left: 25%;" allowfullscreen></iframe>-->
+
+			<img style=" position: absolute; width: 600px; height: 350px; right: 9%; top: 29%;" src="imagens/mapa.png" border="1">
+
+			<div class="navbar navbar-expand-lg navbar-light bg-branco" id="Contato">
+				<p class="copi1"><img class="card-img-top copi" src="Imagens/copi.png" border="1"> 2019 Beyond Ordinary Eyes Development. Todos os direitos Reservados</p><p style="position: absolute; left:55%;"> Telefone: (11) 995871060</p> <p style="position: absolute; margin-bottom: 10%; right: 2%">Email: boedev2019@gmail.com<p>
+			</div>
+		</div>
+	</body>
+</html>

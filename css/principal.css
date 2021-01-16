@@ -1,0 +1,39 @@
+.ligth{
+	text-decoration: none;
+	color: black;
+}
+
+.teste1{
+	position: relative;
+	background-image:url('../Imagens/FundoSITEComDireitos.jpg');
+	width: 1360px;
+	height: 620px;
+}
+
+body{
+	background-color: black;
+}
+
+a{
+	text-decoration: none;
+	font-size: 23px;
+	font-family: Times new Roman;
+	transition: 0.5s;
+	color: black !important;
+}
+a:hover{
+	font-size: 29px;
+	color: white !important;
+}
+
+.principal{
+	position: absolute;
+	background-color: transparent;
+	border-style: solid;
+	margin-top: 2.5%;
+	left: 2.5% ;
+	border-left-color: black;
+	border-top-color: transparent;
+	border-bottom-color: transparent;
+	border-right-color: transparent;
+}
